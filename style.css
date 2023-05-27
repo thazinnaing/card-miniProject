@@ -1,0 +1,350 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    width: 65%;
+    height: 50%;
+}
+.leftContainer{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+
+
+}
+.leftContent{
+    width: 90%;
+    background-color: rgb(244, 179, 189);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.topContent{
+    padding-left: 10px;
+}
+.rightContainer{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.horizontalLine{
+    width: 25%;
+    margin-left: 0;
+}
+.logo{
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("https://wallpaperaccess.com/full/4541180.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottomContent{
+    display: flex;
+    flex-direction: column;
+}
+.firstDiv{
+    display: flex;
+}
+.secondDiv{
+    display: flex;
+}
+.thirdDiv{
+    display: flex;
+}
+
+.contactLogo{
+    margin: auto 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(44, 212, 44);
+}
+.p1{
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: bold;
+}
+.p2{
+    font-size: 15px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1281px){
+    .contactLogo{
+        margin: auto 15px;
+        width: 25px;
+        height: 25px;
+    }
+    .horizontalLine{
+        width: 25%;
+    }
+    .contactData p{
+        font-size: 15px;
+    }
+    .name{
+        font-size: 25px;
+    }
+    .designer{
+        font-size: 22px;
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+        margin: 30px auto;
+    }
+    .p1{
+        font-size: 30px;
+    }
+    .p2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .contactLogo{
+        margin: auto 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .contactData p{
+        font-size: 8px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .designer{
+        font-size: 12px;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+        margin: 20px auto;
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .p2{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width: 913px){
+    .contactLogo{
+        margin: auto 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .contactData p{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .designer{
+        font-size: 25px;
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+        margin: 30px auto;
+    }
+    .p1{
+        font-size: 30px;
+    }
+    .p2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 897px){
+    .contactLogo{
+        margin: auto 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .contactData p{
+        font-size: 8px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .designer{
+        font-size: 12px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        margin: 20px auto;
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .p2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 821px){
+    .contactLogo{
+        margin: auto 15px;
+        width: 25px;
+        height: 25px;
+    }
+    .contactData p{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .designer{
+        font-size: 25px;
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+        margin: 30px auto;
+    }
+    .p1{
+        font-size: 25px;
+    }
+    .p2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 742px){
+    .contactLogo{
+        margin: auto 5px;
+        width: 10px;
+        height: 10px;
+    }
+    .contactData p{
+        font-size: 5px;
+    }
+    .name{
+        font-size: 10px;
+    }
+    .designer{
+        font-size: 8px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin: 15px auto;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .p2{
+        font-size: 10px;
+    }
+   
+}
+
+
+@media screen and (max-width: 722px){
+    .contactLogo{
+        margin: auto 10px;
+        width: 15px;
+        height: 15px;
+    }
+    .contactData p{
+        font-size: 10px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .designer{
+        font-size: 15px;
+    }
+   
+}
+@media screen and (max-width: 668px){
+    .contactLogo{
+        margin: auto 5px;
+        width: 12px;
+        height: 12px;
+    }
+    .contactData p{
+        font-size: 8px;
+    }
+    .name{
+        font-size: 10px;
+    }
+    .designer{
+        font-size: 8px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin: 15px auto;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .p2{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 654px){
+    .contactLogo{
+        margin: auto 10px;
+        width: 8px;
+        height: 8px;
+    }
+    .contactData p{
+        font-size: 5px;
+    }
+    .name{
+        font-size: 9px;
+    }
+    .designer{
+        font-size: 7px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 541px){
+    .contactLogo{
+        margin: auto 5px;
+        width: 20px;
+        height: 20px;
+    }
+    .contactData p{
+        font-size: 10px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .designer{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 281px){
+    .contactLogo{
+        margin: auto 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .contactData p{
+        font-size: 8px;
+    }
+}
